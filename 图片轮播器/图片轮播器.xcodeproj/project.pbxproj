@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493E7DF1A494D097A79B6598 /* libPods-图片轮播器Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E4E7D72C92F7AECDD4BB01 /* libPods-图片轮播器Tests.a */; };
+		73FB8816A229A169F05061BC /* libPods-图片轮播器.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BBB34EE4A6A1E38EC0877F /* libPods-图片轮播器.a */; };
+		A7FD25FC1EC4487900D5916F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD25FB1EC4487900D5916F /* main.m */; };
+		A7FD25FF1EC4487900D5916F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD25FE1EC4487900D5916F /* AppDelegate.m */; };
+		A7FD26021EC4487900D5916F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD26011EC4487900D5916F /* ViewController.m */; };
+		A7FD26051EC4487900D5916F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FD26031EC4487900D5916F /* Main.storyboard */; };
+		A7FD26071EC4487A00D5916F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FD26061EC4487A00D5916F /* Assets.xcassets */; };
+		A7FD260A1EC4487A00D5916F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FD26081EC4487A00D5916F /* LaunchScreen.storyboard */; };
+		A7FD26151EC4487A00D5916F /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD26141EC4487A00D5916F /* _____Tests.m */; };
+		A7FD26201EC4487A00D5916F /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD261F1EC4487A00D5916F /* _____UITests.m */; };
+		A7FD26301EC4494200D5916F /* WXPictureLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD262F1EC4494200D5916F /* WXPictureLoopView.m */; };
+		A7FD26331EC44A5100D5916F /* WXPictureLoopFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD26321EC44A5100D5916F /* WXPictureLoopFlowLayout.m */; };
+		A7FD26361EC44D2100D5916F /* WXPictureLoopCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD26351EC44D2100D5916F /* WXPictureLoopCellView.m */; };
+		A7FD263C1EC44FF300D5916F /* banner1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7FD26391EC44FF300D5916F /* banner1@2x.png */; };
+		A7FD263D1EC44FF300D5916F /* banner2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7FD263A1EC44FF300D5916F /* banner2@2x.png */; };
+		A7FD263E1EC44FF300D5916F /* banner3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7FD263B1EC44FF300D5916F /* banner3@2x.png */; };
+		A7FD26411EC5504100D5916F /* UIImage+WXImageCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FD26401EC5504100D5916F /* UIImage+WXImageCategory.m */; };
+		F9B98272AF78CA160BC4E5A9 /* libPods-图片轮播器UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EFE9048A3A8E6653C9F394 /* libPods-图片轮播器UITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7FD26111EC4487A00D5916F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7FD25EF1EC4487900D5916F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7FD25F61EC4487900D5916F;
+			remoteInfo = "图片轮播器";
+		};
+		A7FD261C1EC4487A00D5916F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7FD25EF1EC4487900D5916F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7FD25F61EC4487900D5916F;
+			remoteInfo = "图片轮播器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		221106102F2C5282F6C0807F /* Pods-图片轮播器.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图片轮播器.debug.xcconfig"; path = "Pods/Target Support Files/Pods-图片轮播器/Pods-图片轮播器.debug.xcconfig"; sourceTree = "<group>"; };
+		41F4738164C45AFBD7248E2A /* Pods-图片轮播器UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图片轮播器UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-图片轮播器UITests/Pods-图片轮播器UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52E4E7D72C92F7AECDD4BB01 /* libPods-图片轮播器Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-图片轮播器Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C1102BEF1CE577955D7411 /* Pods-图片轮播器.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图片轮播器.release.xcconfig"; path = "Pods/Target Support Files/Pods-图片轮播器/Pods-图片轮播器.release.xcconfig"; sourceTree = "<group>"; };
+		A7BBB34EE4A6A1E38EC0877F /* libPods-图片轮播器.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-图片轮播器.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FD25F71EC4487900D5916F /* 图片轮播器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片轮播器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FD25FB1EC4487900D5916F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7FD25FD1EC4487900D5916F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7FD25FE1EC4487900D5916F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7FD26001EC4487900D5916F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7FD26011EC4487900D5916F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7FD26041EC4487900D5916F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7FD26061EC4487A00D5916F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7FD26091EC4487A00D5916F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7FD260B1EC4487A00D5916F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FD26101EC4487A00D5916F /* 图片轮播器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图片轮播器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FD26141EC4487A00D5916F /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		A7FD26161EC4487A00D5916F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FD261B1EC4487A00D5916F /* 图片轮播器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图片轮播器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FD261F1EC4487A00D5916F /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		A7FD26211EC4487A00D5916F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FD262E1EC4494200D5916F /* WXPictureLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXPictureLoopView.h; path = "图片轮播器/WXPictureLoopView.h"; sourceTree = "<group>"; };
+		A7FD262F1EC4494200D5916F /* WXPictureLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXPictureLoopView.m; path = "图片轮播器/WXPictureLoopView.m"; sourceTree = "<group>"; };
+		A7FD26311EC44A5100D5916F /* WXPictureLoopFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXPictureLoopFlowLayout.h; path = "图片轮播器/WXPictureLoopFlowLayout.h"; sourceTree = "<group>"; };
+		A7FD26321EC44A5100D5916F /* WXPictureLoopFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXPictureLoopFlowLayout.m; path = "图片轮播器/WXPictureLoopFlowLayout.m"; sourceTree = "<group>"; };
+		A7FD26341EC44D2100D5916F /* WXPictureLoopCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXPictureLoopCellView.h; path = "图片轮播器/WXPictureLoopCellView.h"; sourceTree = "<group>"; };
+		A7FD26351EC44D2100D5916F /* WXPictureLoopCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXPictureLoopCellView.m; path = "图片轮播器/WXPictureLoopCellView.m"; sourceTree = "<group>"; };
+		A7FD26391EC44FF300D5916F /* banner1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner1@2x.png"; sourceTree = "<group>"; };
+		A7FD263A1EC44FF300D5916F /* banner2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner2@2x.png"; sourceTree = "<group>"; };
+		A7FD263B1EC44FF300D5916F /* banner3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner3@2x.png"; sourceTree = "<group>"; };
+		A7FD263F1EC5504100D5916F /* UIImage+WXImageCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+WXImageCategory.h"; path = "图片轮播器/UIImage+WXImageCategory.h"; sourceTree = "<group>"; };
+		A7FD26401EC5504100D5916F /* UIImage+WXImageCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+WXImageCategory.m"; path = "图片轮播器/UIImage+WXImageCategory.m"; sourceTree = "<group>"; };
+		ACB17619D39DF5E8AA5BF4CF /* Pods-图片轮播器Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图片轮播器Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-图片轮播器Tests/Pods-图片轮播器Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D060691C720A5197CA31ADE3 /* Pods-图片轮播器UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图片轮播器UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-图片轮播器UITests/Pods-图片轮播器UITests.release.xcconfig"; sourceTree = "<group>"; };
+		D47E7615513E67B8B20A3DEE /* Pods-图片轮播器Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图片轮播器Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-图片轮播器Tests/Pods-图片轮播器Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3EFE9048A3A8E6653C9F394 /* libPods-图片轮播器UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-图片轮播器UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7FD25F41EC4487900D5916F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73FB8816A229A169F05061BC /* libPods-图片轮播器.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FD260D1EC4487A00D5916F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493E7DF1A494D097A79B6598 /* libPods-图片轮播器Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FD26181EC4487A00D5916F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B98272AF78CA160BC4E5A9 /* libPods-图片轮播器UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041C26E5FE7AA842F373A8E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221106102F2C5282F6C0807F /* Pods-图片轮播器.debug.xcconfig */,
+				A6C1102BEF1CE577955D7411 /* Pods-图片轮播器.release.xcconfig */,
+				D47E7615513E67B8B20A3DEE /* Pods-图片轮播器Tests.debug.xcconfig */,
+				ACB17619D39DF5E8AA5BF4CF /* Pods-图片轮播器Tests.release.xcconfig */,
+				41F4738164C45AFBD7248E2A /* Pods-图片轮播器UITests.debug.xcconfig */,
+				D060691C720A5197CA31ADE3 /* Pods-图片轮播器UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49E7F24A50A1458195233DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7BBB34EE4A6A1E38EC0877F /* libPods-图片轮播器.a */,
+				52E4E7D72C92F7AECDD4BB01 /* libPods-图片轮播器Tests.a */,
+				F3EFE9048A3A8E6653C9F394 /* libPods-图片轮播器UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7FD25EE1EC4487900D5916F = {
+			isa = PBXGroup;
+			children = (
+				A7FD25F91EC4487900D5916F /* 图片轮播器 */,
+				A7FD26131EC4487A00D5916F /* 图片轮播器Tests */,
+				A7FD261E1EC4487A00D5916F /* 图片轮播器UITests */,
+				A7FD25F81EC4487900D5916F /* Products */,
+				041C26E5FE7AA842F373A8E1 /* Pods */,
+				49E7F24A50A1458195233DD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7FD25F81EC4487900D5916F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD25F71EC4487900D5916F /* 图片轮播器.app */,
+				A7FD26101EC4487A00D5916F /* 图片轮播器Tests.xctest */,
+				A7FD261B1EC4487A00D5916F /* 图片轮播器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7FD25F91EC4487900D5916F /* 图片轮播器 */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD26381EC44FF300D5916F /* banner */,
+				A7FD262D1EC4488500D5916F /* WXPictureLoop */,
+				A7FD25FD1EC4487900D5916F /* AppDelegate.h */,
+				A7FD25FE1EC4487900D5916F /* AppDelegate.m */,
+				A7FD26001EC4487900D5916F /* ViewController.h */,
+				A7FD26011EC4487900D5916F /* ViewController.m */,
+				A7FD26031EC4487900D5916F /* Main.storyboard */,
+				A7FD26061EC4487A00D5916F /* Assets.xcassets */,
+				A7FD26081EC4487A00D5916F /* LaunchScreen.storyboard */,
+				A7FD260B1EC4487A00D5916F /* Info.plist */,
+				A7FD25FA1EC4487900D5916F /* Supporting Files */,
+			);
+			path = "图片轮播器";
+			sourceTree = "<group>";
+		};
+		A7FD25FA1EC4487900D5916F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD25FB1EC4487900D5916F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7FD26131EC4487A00D5916F /* 图片轮播器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD26141EC4487A00D5916F /* _____Tests.m */,
+				A7FD26161EC4487A00D5916F /* Info.plist */,
+			);
+			path = "图片轮播器Tests";
+			sourceTree = "<group>";
+		};
+		A7FD261E1EC4487A00D5916F /* 图片轮播器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD261F1EC4487A00D5916F /* _____UITests.m */,
+				A7FD26211EC4487A00D5916F /* Info.plist */,
+			);
+			path = "图片轮播器UITests";
+			sourceTree = "<group>";
+		};
+		A7FD262D1EC4488500D5916F /* WXPictureLoop */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD262E1EC4494200D5916F /* WXPictureLoopView.h */,
+				A7FD262F1EC4494200D5916F /* WXPictureLoopView.m */,
+				A7FD26311EC44A5100D5916F /* WXPictureLoopFlowLayout.h */,
+				A7FD26321EC44A5100D5916F /* WXPictureLoopFlowLayout.m */,
+				A7FD26341EC44D2100D5916F /* WXPictureLoopCellView.h */,
+				A7FD26351EC44D2100D5916F /* WXPictureLoopCellView.m */,
+				A7FD263F1EC5504100D5916F /* UIImage+WXImageCategory.h */,
+				A7FD26401EC5504100D5916F /* UIImage+WXImageCategory.m */,
+			);
+			name = WXPictureLoop;
+			sourceTree = "<group>";
+		};
+		A7FD26381EC44FF300D5916F /* banner */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD26391EC44FF300D5916F /* banner1@2x.png */,
+				A7FD263A1EC44FF300D5916F /* banner2@2x.png */,
+				A7FD263B1EC44FF300D5916F /* banner3@2x.png */,
+			);
+			path = banner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7FD25F61EC4487900D5916F /* 图片轮播器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FD26241EC4487A00D5916F /* Build configuration list for PBXNativeTarget "图片轮播器" */;
+			buildPhases = (
+				834CDD3DF52F5688B5B66438 /* [CP] Check Pods Manifest.lock */,
+				A7FD25F31EC4487900D5916F /* Sources */,
+				A7FD25F41EC4487900D5916F /* Frameworks */,
+				A7FD25F51EC4487900D5916F /* Resources */,
+				827DF55C339DFC6B368A274F /* [CP] Embed Pods Frameworks */,
+				BE4FED6774F84BA0719EC15B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图片轮播器";
+			productName = "图片轮播器";
+			productReference = A7FD25F71EC4487900D5916F /* 图片轮播器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7FD260F1EC4487A00D5916F /* 图片轮播器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FD26271EC4487A00D5916F /* Build configuration list for PBXNativeTarget "图片轮播器Tests" */;
+			buildPhases = (
+				E632778DFD568928B93B8C23 /* [CP] Check Pods Manifest.lock */,
+				A7FD260C1EC4487A00D5916F /* Sources */,
+				A7FD260D1EC4487A00D5916F /* Frameworks */,
+				A7FD260E1EC4487A00D5916F /* Resources */,
+				835991105896B02B5708F90C /* [CP] Embed Pods Frameworks */,
+				E35B62990E975639E78561A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7FD26121EC4487A00D5916F /* PBXTargetDependency */,
+			);
+			name = "图片轮播器Tests";
+			productName = "图片轮播器Tests";
+			productReference = A7FD26101EC4487A00D5916F /* 图片轮播器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7FD261A1EC4487A00D5916F /* 图片轮播器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FD262A1EC4487A00D5916F /* Build configuration list for PBXNativeTarget "图片轮播器UITests" */;
+			buildPhases = (
+				87FA8BF8D3602A4C8D50C0AB /* [CP] Check Pods Manifest.lock */,
+				A7FD26171EC4487A00D5916F /* Sources */,
+				A7FD26181EC4487A00D5916F /* Frameworks */,
+				A7FD26191EC4487A00D5916F /* Resources */,
+				67A73B5F6EDD4335FA6E071E /* [CP] Embed Pods Frameworks */,
+				2FC7DFFD5B3279EE34BB636B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7FD261D1EC4487A00D5916F /* PBXTargetDependency */,
+			);
+			name = "图片轮播器UITests";
+			productName = "图片轮播器UITests";
+			productReference = A7FD261B1EC4487A00D5916F /* 图片轮播器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7FD25EF1EC4487900D5916F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈伟鑫";
+				TargetAttributes = {
+					A7FD25F61EC4487900D5916F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3823CPSR4J;
+						ProvisioningStyle = Automatic;
+					};
+					A7FD260F1EC4487A00D5916F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3823CPSR4J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7FD25F61EC4487900D5916F;
+					};
+					A7FD261A1EC4487A00D5916F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3823CPSR4J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7FD25F61EC4487900D5916F;
+					};
+				};
+			};
+			buildConfigurationList = A7FD25F21EC4487900D5916F /* Build configuration list for PBXProject "图片轮播器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7FD25EE1EC4487900D5916F;
+			productRefGroup = A7FD25F81EC4487900D5916F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7FD25F61EC4487900D5916F /* 图片轮播器 */,
+				A7FD260F1EC4487A00D5916F /* 图片轮播器Tests */,
+				A7FD261A1EC4487A00D5916F /* 图片轮播器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7FD25F51EC4487900D5916F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FD263E1EC44FF300D5916F /* banner3@2x.png in Resources */,
+				A7FD260A1EC4487A00D5916F /* LaunchScreen.storyboard in Resources */,
+				A7FD26071EC4487A00D5916F /* Assets.xcassets in Resources */,
+				A7FD263D1EC44FF300D5916F /* banner2@2x.png in Resources */,
+				A7FD263C1EC44FF300D5916F /* banner1@2x.png in Resources */,
+				A7FD26051EC4487900D5916F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FD260E1EC4487A00D5916F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FD26191EC4487A00D5916F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FC7DFFD5B3279EE34BB636B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-图片轮播器UITests/Pods-图片轮播器UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67A73B5F6EDD4335FA6E071E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-图片轮播器UITests/Pods-图片轮播器UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		827DF55C339DFC6B368A274F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-图片轮播器/Pods-图片轮播器-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		834CDD3DF52F5688B5B66438 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		835991105896B02B5708F90C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-图片轮播器Tests/Pods-图片轮播器Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87FA8BF8D3602A4C8D50C0AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4FED6774F84BA0719EC15B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-图片轮播器/Pods-图片轮播器-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E35B62990E975639E78561A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-图片轮播器Tests/Pods-图片轮播器Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E632778DFD568928B93B8C23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7FD25F31EC4487900D5916F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FD26411EC5504100D5916F /* UIImage+WXImageCategory.m in Sources */,
+				A7FD26021EC4487900D5916F /* ViewController.m in Sources */,
+				A7FD25FF1EC4487900D5916F /* AppDelegate.m in Sources */,
+				A7FD26361EC44D2100D5916F /* WXPictureLoopCellView.m in Sources */,
+				A7FD26301EC4494200D5916F /* WXPictureLoopView.m in Sources */,
+				A7FD26331EC44A5100D5916F /* WXPictureLoopFlowLayout.m in Sources */,
+				A7FD25FC1EC4487900D5916F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FD260C1EC4487A00D5916F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FD26151EC4487A00D5916F /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FD26171EC4487A00D5916F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FD26201EC4487A00D5916F /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7FD26121EC4487A00D5916F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7FD25F61EC4487900D5916F /* 图片轮播器 */;
+			targetProxy = A7FD26111EC4487A00D5916F /* PBXContainerItemProxy */;
+		};
+		A7FD261D1EC4487A00D5916F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7FD25F61EC4487900D5916F /* 图片轮播器 */;
+			targetProxy = A7FD261C1EC4487A00D5916F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7FD26031EC4487900D5916F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FD26041EC4487900D5916F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7FD26081EC4487A00D5916F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FD26091EC4487A00D5916F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7FD26221EC4487A00D5916F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7FD26231EC4487A00D5916F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7FD26251EC4487A00D5916F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221106102F2C5282F6C0807F /* Pods-图片轮播器.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "图片轮播器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7FD26261EC4487A00D5916F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C1102BEF1CE577955D7411 /* Pods-图片轮播器.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "图片轮播器/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7FD26281EC4487A00D5916F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47E7615513E67B8B20A3DEE /* Pods-图片轮播器Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "图片轮播器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/图片轮播器.app/图片轮播器";
+			};
+			name = Debug;
+		};
+		A7FD26291EC4487A00D5916F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB17619D39DF5E8AA5BF4CF /* Pods-图片轮播器Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "图片轮播器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/图片轮播器.app/图片轮播器";
+			};
+			name = Release;
+		};
+		A7FD262B1EC4487A00D5916F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41F4738164C45AFBD7248E2A /* Pods-图片轮播器UITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "图片轮播器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "图片轮播器";
+			};
+			name = Debug;
+		};
+		A7FD262C1EC4487A00D5916F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D060691C720A5197CA31ADE3 /* Pods-图片轮播器UITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3823CPSR4J;
+				INFOPLIST_FILE = "图片轮播器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "---.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "图片轮播器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7FD25F21EC4487900D5916F /* Build configuration list for PBXProject "图片轮播器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FD26221EC4487A00D5916F /* Debug */,
+				A7FD26231EC4487A00D5916F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FD26241EC4487A00D5916F /* Build configuration list for PBXNativeTarget "图片轮播器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FD26251EC4487A00D5916F /* Debug */,
+				A7FD26261EC4487A00D5916F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FD26271EC4487A00D5916F /* Build configuration list for PBXNativeTarget "图片轮播器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FD26281EC4487A00D5916F /* Debug */,
+				A7FD26291EC4487A00D5916F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FD262A1EC4487A00D5916F /* Build configuration list for PBXNativeTarget "图片轮播器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FD262B1EC4487A00D5916F /* Debug */,
+				A7FD262C1EC4487A00D5916F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7FD25EF1EC4487900D5916F /* Project object */;
+}
